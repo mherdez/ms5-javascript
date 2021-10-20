@@ -1,0 +1,42 @@
+
+body {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.caja {
+   width: 200px;
+   height: 200px;
+   background-color: gray;
+}
+
+.botones {
+   margin-top: 40px;
+   display: flex;
+}
+
+.btn {
+   width: 100px;
+   height: 20px;
+   margin-left: 10px;
+   border-radius: 5px;
+   color: white;
+   padding: 5px;
+   cursor: pointer;
+}
+
+.btn-1 {
+   background-color: red;
+}
+.btn-1:hover {
+   background-color: rgb(255, 81, 81);
+   box-shadow: 2px 2px 5px grey;
+}
+.btn-2 {
+   background-color: green;
+}
+.btn-3 {
+   background-color: blue;
+}
+
